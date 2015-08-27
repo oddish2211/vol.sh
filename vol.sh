@@ -8,13 +8,13 @@ vol() {
 
 inc() {
     [[ -n "$1" ]] && VOL_STEPS=$1
-    pamixer --unmute --allow-boost --increase $VOL_STEPS
+    pamixer --unmute --increase $VOL_STEPS
     [[ -z "$2" ]] && noti
 }
 
 dec() {
     [[ -n "$1" ]] && VOL_STEPS=$1
-    pamixer --unmute --allow-boost --decrease $VOL_STEPS
+    pamixer --unmute --decrease $VOL_STEPS
     [[ -z "$2" ]] && noti
 }
 
