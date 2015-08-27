@@ -1,6 +1,7 @@
 # vol.sh
 
-Volument control and notification (PulseAudio and volnoti)
+Volume control and notification (PulseAudio and volnoti)
+This fork disables boost functionality of pulseaudio
 
 ## Dependencies
 
